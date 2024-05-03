@@ -1,5 +1,6 @@
 package src;
 
+import src.br.com.dio.desafio.dominio.Conteudo;
 import src.br.com.dio.desafio.dominio.Curso;
 import src.br.com.dio.desafio.dominio.Mentoria;
 
@@ -12,6 +13,7 @@ public class Main {
         curso.setTitulo("Java Básico");
         curso.setDescricao("Aprenda os conceitos básicos de Java");
         curso.setCargaHoraria(8);
+
 
         System.out.println(curso);
 
